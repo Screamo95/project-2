@@ -182,6 +182,40 @@
   }
 }
 
+/* About */
+
+.about {
+  padding-top: 121px;
+  padding-bottom: 100px;
+}
+.about__body {
+  max-width: 540px;
+  text-align: center;
+  margin: 0 auto;
+}
+.about__body-h2 {
+  font-family: roboto-medium;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 42px;
+}
+.about__body-p {
+  font-family: roboto-regular;
+  font-size: 16px;
+  color: #727272;
+  line-height: 164%;
+}
+
+@media screen and (max-width: 390px) {
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .about__body {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
 
 
 
