@@ -269,13 +269,54 @@
 }
 @media screen and (max-width: 390px) {
   .numbers__body {
-    /* padding-left: 10px;
-    padding-right: 10px;
-    gap: 15px; */
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
   }
 }
+
+/* Skills */
+
+.skills {
+  padding-top: 102px;
+  padding-bottom: 100px;
+}
+.skills__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills__content {
+  margin-top: 44px;
+}
+.skills__content-title {
+  font-family: roboto-medium;
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 46px;
+}
+.skills__item {
+  margin-bottom: 30px;
+}
+.skills__item-name {
+  font-family: roboto-regular;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 19px;
+}
+.skills__item-passive {
+  width: 445px;
+  height: 4px;
+  background-color: #c4c4c4;
+}
+.skills__item-active {
+  width: 350px;
+  height: 4px;
+  background-color: #34547A;
+}
+.skills__body-img {
+  width: 555px;
+}
+
 
 
 
