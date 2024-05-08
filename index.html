@@ -33,6 +33,16 @@
       </div>
     </div>
   </header>
+  <!-- Модальное окно -->
+  <div class="header__modal">
+    <h3 class="header__modal-title">Хочешь работать со мной?</h3>
+    <p class="header__modal-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam architecto soluta eaque, assumenda veniam ipsum est magnam. In qui eius vel ipsum assumenda accusamus consequatur voluptates doloremque exercitationem nisi recusandae voluptate ipsam amet officiis, tempora sequi facere non eveniet eligendi ipsa magni ratione. Delectus molestias laboriosam ab, laborum cum, necessitatibus voluptas at in aspernatur, tempora est aut. Quasi quod consectetur et adipisci cumque optio beatae? Hic, officiis odit dicta sit adipisci delectus pariatur accusamus consequuntur libero ad et iusto. Assumenda, maiores vel iste culpa voluptates temporibus amet laboriosam nobis. Cum iste delectus veniam repellat eligendi magnam quia! Minima, molestias aut.</p>
+    <div class="header__modal_nav">
+      <a href="tel:+79872639184" class="header__modal_nav-button">Позвонить</a>
+      <a href="mailto:revs7@mail.ru" class="header__modal_nav-button">Написать</a>
+      <span class="header__modal_nav-button">Закрыть</span>
+    </div>
+  </div>
 
   <section class="about">
     <div class="global__container">
@@ -126,14 +136,16 @@
       <h2 class="video-title">Как я работаю</h2>
       <p class="video-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
       <div class="video_box">
-        <video poster="img/video_bg.jpg">
+        <video id="video__main" poster="img/video_bg.jpg">
           <source src="video/video.mp4" type="video/mp4">
           <source src="video/video.webm" type="video/webm">
         </video>
-        <img src="img/video_play.png" alt="">
+        <img id="video__play" src="img/video_play.png" alt="">
       </div>
     </div>
   </section>
 
+
+  <script src="js/main.js"></script>
 </body>
 </html>
