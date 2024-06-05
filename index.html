@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/sweetalert2.min.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <title>Project-2</title>
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="mainP">
     <div class="global__container">
       <div class="header__top">
         <img class="header__top-img" src="img/header_logo.png" alt="Logo">
         <div class="header__menu">
-          <a href="#" class="header__menu-item">Главная</a>
-          <a href="#" class="header__menu-item">Об авторе</a>
-          <a href="#" class="header__menu-item">Работы</a>
-          <a href="#" class="header__menu-item">Процесс</a>
-          <a href="#" class="header__menu-item">Контакты</a>
+          <a href="#mainP" class="header__menu-item">Главная</a>
+          <a href="#aboutP" class="header__menu-item">Об авторе</a>
+          <a href="#numbersP" class="header__menu-item">Работы</a>
+          <a href="#videoP" class="header__menu-item">Процесс</a>
+          <a href="#formP" class="header__menu-item">Контакты</a>
         </div>
       </div>
       <div class="header__body">
@@ -35,7 +34,7 @@
     </div>
   </header>
 
-  <section class="about">
+  <section class="about" id="aboutP">
     <div class="global__container">
       <div class="about__body">
         <h2 class="about__body-h2">Обо мне</h2>
@@ -44,7 +43,7 @@
     </div>
   </section>
 
-  <section class="numbers">
+  <section class="numbers" id="numbersP">
     <div class="global__container">
       <div class="numbers__body">
         <div class="numbers__item">
@@ -122,7 +121,7 @@
     </div>
   </section>
 
-  <section class="video">
+  <section class="video" id="videoP">
     <div class="global__container">
       <h2 class="video-title">Как я работаю</h2>
       <p class="video-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
@@ -189,6 +188,52 @@
     </div>
   </section>
 
+  <section class="clients">
+    <div class="global__container">
+      <div class="clients__body">
+        <img src="img/clients_logo.png" alt="Логотип" class="clients-item">
+        <img src="img/clients_logo.png" alt="Логотип" class="clients-item">
+        <img src="img/clients_logo.png" alt="Логотип" class="clients-item">
+        <img src="img/clients_logo.png" alt="Логотип" class="clients-item">
+      </div>
+    </div>
+  </section>
+
+  <section class="form" id="formP">
+    <div class="global__container">
+      <div class="form__body">
+        <h2 class="form-title">Хотите веб-сайт?</h2>
+        <div class="form__text">
+          <p class="form__text-p">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+        </div>
+        <form action="#" method="post" name="mainform">
+          <div class="form__info">
+            <input class="form__info-input form-placeholder" type="text" name="name" placeholder="Ваше имя">
+            <input class="form__info-input form-placeholder" type="email" name="email" placeholder="Ваш e-mail">
+          </div>
+          <textarea class="form-textarea form-placeholder" name="textarea" placeholder="Сообщение"></textarea>
+          <br>
+          <input class="form-submit" type="submit" value="Отправить">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="global__container">
+      <div class="footer__body">
+        <div class="footer__left">
+          <h4 class="footer__left-title">Иванов Иван</h4>
+          <p class="footer__left-text">(с) 2018. Все права защищены.</p>
+        </div>
+        <div class="footer__right">
+          <img src="img/footer_social.png" alt="Логотип" class="footer__right-img">
+          <img src="img/footer_social.png" alt="Логотип" class="footer__right-img">
+          <img src="img/footer_social.png" alt="Логотип" class="footer__right-img">
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/sweetalert2.all.min.js"></script>
   <script src="js/main.js"></script>
